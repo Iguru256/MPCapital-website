@@ -26,7 +26,7 @@ header p {
 
 /* Hero Section */
 .hero img {
-    width: 40%;
+    width: 100%;
     height: auto;
 }
 
@@ -174,7 +174,6 @@ nav {
     align-items: center;
     background: #2e0146;
     padding: 15px 20px;
-
 }
 
 .logo {
@@ -219,7 +218,6 @@ nav {
     border-radius: 0.2rem;
 }
 
-
 .intro, .vision-mission, .services {
     text-align: center;
     padding: 40px 0;
@@ -255,7 +253,6 @@ h2, h3 {
     display: inline-block;
     width: 45%;
     height: auto;
-  
     vertical-align: top;
 }
 
@@ -273,4 +270,98 @@ h2, h3 {
     background: #2e0146;
     width: 80%;
     margin-left: 10%;
+}
+
+/* Mobile Responsiveness */
+@media only screen and (max-width: 768px) {
+    /* Navbar */
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    /* Hero Image */
+    .hero img {
+        width: 100%;
+    }
+
+    /* Top Contact Bar */
+    .top-bar {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    .contact, .whatsapp a, .social-icons a {
+        margin-bottom: 10px;
+    }
+
+    /* Services Section */
+    .service {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .service img {
+        width: 100%;
+    }
+
+    /* Feedback Button */
+    .feedback-btn {
+        top: 20%;
+        left: 50%;
+        transform: rotate(0deg);
+        margin-left: -50px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Very Small Devices (Mobile Phones in Portrait) */
+@media only screen and (max-width: 480px) {
+    /* Header */
+    header h1 {
+        font-size: 28px;
+    }
+
+    /* Hero Section */
+    .hero img {
+        width: 100%;
+    }
+
+    /* Welcome Section */
+    .welcome h2 {
+        font-size: 24px;
+    }
+
+    .welcome-content {
+        max-width: 90%;
+    }
+
+    /* Footer */
+    .footer-section p, .footer-section a {
+        font-size: 14px;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
 }
