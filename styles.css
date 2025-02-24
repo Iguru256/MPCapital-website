@@ -1,0 +1,276 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E6E0F8;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #30004D;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero img {
+    width: 40%;
+    height: auto;
+}
+
+.hero{
+    background-color: #4e0b72;
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 40px 20px;
+}
+
+.welcome h2 {
+    font-size: 30px;
+    color: #30004D;
+    padding-bottom: 30px;
+}
+
+.welcome-content {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content p {
+    font-size: 18px;
+    font-style: sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    background: yellow;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Feedback Button */
+.feedback-btn {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    background: yellow;
+    padding: 10px;
+    transform: rotate(-90deg);
+}
+
+.feedback-btn a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    width: 45%;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    background-color: grey;
+}
+
+.footer-bottom a {
+    color: #FFD700;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Contact Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d1b3e0;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.contact, .whatsapp a, .social-icons a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2e0146;
+    padding: 15px 20px;
+
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover, .nav-links .active {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Feedback Button */
+.feedback-btn {
+    position: fixed;
+    left: 0;
+    top: 20%;
+    background: yellow;
+    color: black;
+    padding: 10px;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+
+
+.intro, .vision-mission, .services {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.vision-mission .mission p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.vision-mission .mission h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h2, h3 {
+    color: whitesmoke;
+    size: 30px;
+}
+
+.btn {
+    background-color: yellow;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.service {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+  
+    vertical-align: top;
+}
+
+.service p{
+    size: 18px;
+    color: white;
+}
+
+.service img {
+    width: 50%;
+    height: auto;
+}
+
+.services{
+    background: #2e0146;
+    width: 80%;
+    margin-left: 10%;
+}
